@@ -53,6 +53,5 @@ arrayPalavras.push(palavra4);
 let palavra5 = prompt("digite outra palavra");
 arrayPalavras.push(palavra5);
 console.log(arrayPalavras);
-//const palavrasPares = arrayPalavras.filter(arrayPalavras => (palavrasPares.length % 2 === 0));
-//console.log(palavrasPares);
-arrayPalavras.every( (e) => e % 2 === 0 );
+const palavrasPares = arrayPalavras.filter(e => (e.length % 2 === 0));
+console.log(palavrasPares);
